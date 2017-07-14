@@ -1,0 +1,220 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@amailblue-name: 'amailblue';
+@amailblue-x: 102px;
+@amailblue-y: 160px;
+@amailblue-offset-x: -102px;
+@amailblue-offset-y: -160px;
+@amailblue-width: 42px;
+@amailblue-height: 28px;
+@amailblue-total-width: 321px;
+@amailblue-total-height: 260px;
+@amailblue-image: 'sprite.png';
+@amailblue: 102px 160px -102px -160px 42px 28px 321px 260px 'sprite.png' 'amailblue';
+@big-lgo-name: 'big-lgo';
+@big-lgo-x: 202px;
+@big-lgo-y: 94px;
+@big-lgo-offset-x: -202px;
+@big-lgo-offset-y: -94px;
+@big-lgo-width: 68px;
+@big-lgo-height: 55px;
+@big-lgo-total-width: 321px;
+@big-lgo-total-height: 260px;
+@big-lgo-image: 'sprite.png';
+@big-lgo: 202px 94px -202px -94px 68px 55px 321px 260px 'sprite.png' 'big-lgo';
+@call-name: 'call';
+@call-x: 284px;
+@call-y: 0px;
+@call-offset-x: -284px;
+@call-offset-y: 0px;
+@call-width: 37px;
+@call-height: 37px;
+@call-total-width: 321px;
+@call-total-height: 260px;
+@call-image: 'sprite.png';
+@call: 284px 0px -284px 0px 37px 37px 321px 260px 'sprite.png' 'call';
+@collbloks-name: 'collbloks';
+@collbloks-x: 210px;
+@collbloks-y: 193px;
+@collbloks-offset-x: -210px;
+@collbloks-offset-y: -193px;
+@collbloks-width: 48px;
+@collbloks-height: 42px;
+@collbloks-total-width: 321px;
+@collbloks-total-height: 260px;
+@collbloks-image: 'sprite.png';
+@collbloks: 210px 193px -210px -193px 48px 42px 321px 260px 'sprite.png' 'collbloks';
+@hend-name: 'hend';
+@hend-x: 105px;
+@hend-y: 193px;
+@hend-offset-x: -105px;
+@hend-offset-y: -193px;
+@hend-width: 100px;
+@hend-height: 45px;
+@hend-total-width: 321px;
+@hend-total-height: 260px;
+@hend-image: 'sprite.png';
+@hend: 105px 193px -105px -193px 100px 45px 321px 260px 'sprite.png' 'hend';
+@house-name: 'house';
+@house-x: 0px;
+@house-y: 0px;
+@house-offset-x: 0px;
+@house-offset-y: 0px;
+@house-width: 94px;
+@house-height: 95px;
+@house-total-width: 321px;
+@house-total-height: 260px;
+@house-image: 'sprite.png';
+@house: 0px 0px 0px 0px 94px 95px 321px 260px 'sprite.png' 'house';
+@keys-name: 'keys';
+@keys-x: 202px;
+@keys-y: 0px;
+@keys-offset-x: -202px;
+@keys-offset-y: 0px;
+@keys-width: 77px;
+@keys-height: 89px;
+@keys-total-width: 321px;
+@keys-total-height: 260px;
+@keys-image: 'sprite.png';
+@keys: 202px 0px -202px 0px 77px 89px 321px 260px 'sprite.png' 'keys';
+@masege-name: 'masege';
+@masege-x: 202px;
+@masege-y: 154px;
+@masege-offset-x: -202px;
+@masege-offset-y: -154px;
+@masege-width: 48px;
+@masege-height: 34px;
+@masege-total-width: 321px;
+@masege-total-height: 260px;
+@masege-image: 'sprite.png';
+@masege: 202px 154px -202px -154px 48px 34px 321px 260px 'sprite.png' 'masege';
+@money-name: 'money';
+@money-x: 99px;
+@money-y: 0px;
+@money-offset-x: -99px;
+@money-offset-y: 0px;
+@money-width: 98px;
+@money-height: 90px;
+@money-total-width: 321px;
+@money-total-height: 260px;
+@money-image: 'sprite.png';
+@money: 99px 0px -99px 0px 98px 90px 321px 260px 'sprite.png' 'money';
+@people-name: 'people';
+@people-x: 0px;
+@people-y: 193px;
+@people-offset-x: 0px;
+@people-offset-y: -193px;
+@people-width: 100px;
+@people-height: 67px;
+@people-total-width: 321px;
+@people-total-height: 260px;
+@people-image: 'sprite.png';
+@people: 0px 193px 0px -193px 100px 67px 321px 260px 'sprite.png' 'people';
+@pocej-name: 'pocej';
+@pocej-x: 0px;
+@pocej-y: 100px;
+@pocej-offset-x: 0px;
+@pocej-offset-y: -100px;
+@pocej-width: 97px;
+@pocej-height: 88px;
+@pocej-total-width: 321px;
+@pocej-total-height: 260px;
+@pocej-image: 'sprite.png';
+@pocej: 0px 100px 0px -100px 97px 88px 321px 260px 'sprite.png' 'pocej';
+@smal-logo-name: 'smal-logo';
+@smal-logo-x: 102px;
+@smal-logo-y: 100px;
+@smal-logo-offset-x: -102px;
+@smal-logo-offset-y: -100px;
+@smal-logo-width: 68px;
+@smal-logo-height: 55px;
+@smal-logo-total-width: 321px;
+@smal-logo-total-height: 260px;
+@smal-logo-image: 'sprite.png';
+@smal-logo: 102px 100px -102px -100px 68px 55px 321px 260px 'sprite.png' 'smal-logo';
+@spritesheet-width: 321px;
+@spritesheet-height: 260px;
+@spritesheet-image: 'sprite.png';
+@spritesheet-sprites: @amailblue @big-lgo @call @collbloks @hend @house @keys @masege @money @people @pocej @smal-logo;
+@spritesheet: 321px 260px 'sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
